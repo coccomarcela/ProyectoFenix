@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4DBE580B-3030-4149-A898-6801F86EABAC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NameStartup</RootNamespace>
+    <AssemblyName>NameStartup</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="QuickStart, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="RadControlSpy, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.RadDock, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Datos\Category.cs" />
+    <Compile Include="Datos\Projects.cs" />
+    <Compile Include="MVC\Controler.cs" />
+    <Compile Include="MVC\Model.cs" />
+    <Compile Include="MVC\Plantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MVC\Plantilla.Designer.cs">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NameGeneratorStartups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NameGeneratorStartups.Designer.cs">
+      <DependentUpon>NameGeneratorStartups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Form_AboutMy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_AboutMy.Designer.cs">
+      <DependentUpon>Form_AboutMy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_Bienvenida.Designer.cs">
+      <DependentUpon>Form_Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_Categorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_Categorias.Designer.cs">
+      <DependentUpon>Form_Categorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_MyNames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_MyNames.Designer.cs">
+      <DependentUpon>Form_MyNames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_Names.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_Names.Designer.cs">
+      <DependentUpon>Form_Names.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MVC\Plantilla.resx">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NameGeneratorStartups.resx">
+      <DependentUpon>NameGeneratorStartups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form_AboutMy.resx">
+      <DependentUpon>Form_AboutMy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form_Bienvenida.resx">
+      <DependentUpon>Form_Bienvenida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form_Categorias.resx">
+      <DependentUpon>Form_Categorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form_Names.resx">
+      <DependentUpon>Form_Names.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\NameStartup.Datos.Category.datasource" />
+    <None Include="Properties\DataSources\NameStartup.Datos.NameGx.datasource" />
+    <None Include="Properties\DataSources\NameStartup.Datos.Palabra.datasource" />
+    <None Include="Properties\DataSources\NameStartup.Datos.Projectx.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\myfenixCoccoIco.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\amor.png" />
+    <None Include="Resources\connect_to_network.png" />
+    <None Include="Resources\bookmark.png" />
+    <None Include="Resources\katuberling.png" />
+    <None Include="Resources\edit_add.png" />
+    <None Include="Resources\favicon.ico" />
+    <None Include="Resources\ksplash.png" />
+    <None Include="Resources\BannerName.png" />
+    <None Include="Resources\Perfil.jpg" />
+    <None Include="Resources\myfenixCocco11.png" />
+    <None Include="Resources\myfenixCocco1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
