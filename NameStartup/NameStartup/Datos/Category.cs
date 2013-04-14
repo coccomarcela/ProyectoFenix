@@ -162,25 +162,25 @@ namespace NameStartup.Datos
             c = new Category();
 
             c.Name = "Mision";
-            c.Descripcion = "Palabras o Frases que definan el Servicio/Producto";
+            c.Descripcion = "Palabras o Frases cortas que definan la misión del Proyecto";
             ListCategory.Add(c);
 
             c = new Category();
 
             c.Name = "Valor";
-            c.Descripcion = "Palabras o Frases que definan como sera o que caracteristicas tendra el Servicio/Producto";
+            c.Descripcion = "Palabras o Frases cortas que definan como sera o que caracteristicas tendra el Proyecto";
             ListCategory.Add(c);
 
             c = new Category();
 
             c.Name = "Vision";
-            c.Descripcion = "Palabras o Frases que definan esas aspiraciones-sueños-deseos sobre Servicio/Producto";
+            c.Descripcion = "Palabras o Frases cortas que definan esas aspiraciones-sueños-deseos quet tenemos sobre Proyecto";
             ListCategory.Add(c);
 
             c = new Category();
 
             c.Name = "Cosas Locas";
-            c.Descripcion = "Palabras o Frases locas que se te ocurren u ocurrieron durante la definición del Servicio/Producto";
+            c.Descripcion = "Palabras o Frases cortas Locas que se te ocurren u ocurrieron durante la definición del Proyecto";
             ListCategory.Add(c);
 
 

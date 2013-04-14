@@ -48,19 +48,45 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.GridView, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.WinControls.RadDock, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
-    <Reference Include="Telerik.WinControls.UI, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
-    <Reference Include="TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Aqua, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Breeze, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Black, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Blue, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2010Silver, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.TelerikMetro, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Windows7, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2011.2.11.712, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\Category.cs" />
@@ -134,6 +160,10 @@
     <EmbeddedResource Include="Vistas\Form_Names.resx">
       <DependentUpon>Form_Names.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="MVC\-ClassDiagram-Vistas.cd" />
+    <None Include="MVC\-ClassDiagram-MVC.cd" />
+    <None Include="Datos\-ClassDiagram-Category.cd" />
+    <None Include="Datos\-ClassDiagram-Projects.cd" />
     <None Include="Properties\DataSources\NameStartup.Datos.Category.datasource" />
     <None Include="Properties\DataSources\NameStartup.Datos.NameGx.datasource" />
     <None Include="Properties\DataSources\NameStartup.Datos.Palabra.datasource" />

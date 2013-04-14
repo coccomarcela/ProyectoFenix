@@ -39,7 +39,17 @@ namespace NameStartup.Vistas
 
         private void btn_CrearProyecto_Click(object sender, EventArgs e)
         {
-            _Mycontroler.MyModel.MyProyects.Guardar_Proyecto(_Mycontroler.MyModel.MyCategorias);
+            try
+            {
+                _Mycontroler.MyModel.MyProyects.Guardar_Proyecto(_Mycontroler.MyModel.MyCategorias);
+                MessageBox.Show("El proyecto:" +_Mycontroler.MyModel.MyProyects.ProyectoSeleccionado +" .Se guardo Bien!!!");
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("El proyecto:" + _Mycontroler.MyModel.MyProyects.ProyectoSeleccionado + " .No se guardo Bien. Sorry!!!");
+            }
+         
         }
 
 

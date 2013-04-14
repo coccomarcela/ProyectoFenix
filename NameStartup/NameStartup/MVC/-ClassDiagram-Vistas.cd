@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NameStartup.MVC.Plantilla" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAQCAAEAAAAACAEAwCAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MVC\Plantilla.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameStartup.Vistas.Form_AboutMy" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAAAACAAAACAAAAAAACAAAAAABAAAA=</HashCode>
+      <FileName>Vistas\Form_AboutMy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameStartup.Vistas.Form_Names" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAhAAAEKAAAgDABAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Vistas\Form_Names.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameStartup.Vistas.Form_Bienvenida" Collapsed="true">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IARAAAAEACAAABAAAACAAAgDAAAAEAQBAAAAIAgIAAE=</HashCode>
+      <FileName>Vistas\Form_Bienvenida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameStartup.Vistas.Form_Categorias" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAggCAmKRAAAhCIAhACABgAEAAAAAAAQBhAAAA=</HashCode>
+      <FileName>Vistas\Form_Categorias.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NameStartup.Vistas.Form_MyNames" Collapsed="true">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vistas\Form_MyNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
