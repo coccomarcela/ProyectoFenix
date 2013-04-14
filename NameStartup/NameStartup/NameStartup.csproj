@@ -90,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Datos\Category.cs" />
+    <Compile Include="Datos\NameG.cs" />
     <Compile Include="Datos\Projects.cs" />
     <Compile Include="MVC\Controler.cs" />
     <Compile Include="MVC\Model.cs" />
@@ -160,6 +161,7 @@
     <EmbeddedResource Include="Vistas\Form_Names.resx">
       <DependentUpon>Form_Names.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Datos\-ClassDiagram-NameG.cd" />
     <None Include="MVC\-ClassDiagram-Vistas.cd" />
     <None Include="MVC\-ClassDiagram-MVC.cd" />
     <None Include="Datos\-ClassDiagram-Category.cd" />
