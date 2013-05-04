@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PracticosLogMat.Entities.Class_UnII_TP4_EJ_A2C">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgCAAQFCABAgAZIAAIgIAgAAIGIAAAAYAD0BABgCQAA=</HashCode>
+      <FileName>Entities\Class-UnII-TP4-EJ-A2C.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="PracticosLogMat.Entities.OpExp1" Collapsed="true">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Entities\Class-UnII-TP4-EJ-A2C.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PracticosLogMat.Entities.igualdad" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\Class-UnII-TP4-EJ-A2C.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

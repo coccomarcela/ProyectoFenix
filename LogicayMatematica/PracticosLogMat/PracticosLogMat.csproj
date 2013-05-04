@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53E5CCCF-6758-44F1-A4EA-E9A3F196A3CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PracticosLogMat</RootNamespace>
+    <AssemblyName>PracticosLogMat</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PracticosLogMat.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>karbon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NCalc">
+      <HintPath>packages\ncalc.1.3.8\lib\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Class-UnII-TP4-EJ-A2C.cs" />
+    <Compile Include="FormIni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIni.Designer.cs">
+      <DependentUpon>FormIni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MVC\Controler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MVC\Model.cs" />
+    <Compile Include="MVC\Plantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MVC\Plantilla.Designer.cs">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MVC\PlantillaPopUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MVC\PlantillaPopUP.Designer.cs">
+      <DependentUpon>PlantillaPopUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Form-UnII-TP4-A-EJ-2C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form-UnII-TP4-A-EJ-2C.Designer.cs">
+      <DependentUpon>Form-UnII-TP4-A-EJ-2C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_Bienvenida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_Bienvenida.Designer.cs">
+      <DependentUpon>Form_Bienvenida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Form_Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Form_Help.Designer.cs">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormIni.resx">
+      <DependentUpon>FormIni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MVC\Plantilla.resx">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MVC\PlantillaPopUP.resx">
+      <DependentUpon>PlantillaPopUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form-UnII-TP4-A-EJ-2C.resx">
+      <DependentUpon>Form-UnII-TP4-A-EJ-2C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Form_Help.resx">
+      <DependentUpon>Form_Help.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Documentacion\Doc_UnII-TP4-A-EJ-2C.rtf" />
+    <None Include="Entities\ClassDiagram_Entities.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\PracticosLogMat.Entities.Class_UnII_TP4_EJ_A2C.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconM.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="karbon.ico" />
+    <Content Include="Resources\productoria.png" />
+    <Content Include="Resources\simples.png" />
+    <Content Include="Resources\sumatoria.png" />
+    <None Include="Resources\myfenixCocco1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
